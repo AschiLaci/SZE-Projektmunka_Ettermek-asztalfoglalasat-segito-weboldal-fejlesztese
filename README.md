@@ -1,5 +1,12 @@
 # SZE-Projektmunka_Ettermek-asztalfoglalasat-segito-weboldal-fejlesztese
 
+> [!WARNING]
+> A `public/hidden.htaccess` fájlt futtatás előtt át kell írni `.htaccess`-re.
+
+
+
+
+
 ## Futtatás Fejlesztői Módban
 ```bash
 npm install
