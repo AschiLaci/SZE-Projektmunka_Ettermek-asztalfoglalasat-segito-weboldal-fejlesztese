@@ -1,0 +1,133 @@
+{
+  "restaurants": [
+    {
+      "id": "restaurant-1",
+      "name": "The Gilded Spoon",
+      "username": "gildedspoon",
+      "password": "password",
+      "cuisine": "Modern European",
+      "address": "456 Culinary Ave, Foodville",
+      "description": "Exquisite dishes crafted with locally-sourced ingredients in a chic, contemporary setting.",
+      "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2574&auto=format&fit=crop",
+      "status": "active",
+      "openingHours": "17:00 - 23:00",
+      "maxBookings": 50,
+      "layout": [
+        { "id": "gs-el-1", "type": "table", "x": 50, "y": 50, "width": 80, "height": 80, "rotation": 0, "number": 1, "seats": 4, "shape": "square" },
+        { "id": "gs-el-2", "type": "table", "x": 200, "y": 50, "width": 80, "height": 80, "rotation": 0, "number": 2, "seats": 4, "shape": "square" },
+        { "id": "gs-el-3", "type": "table", "x": 50, "y": 200, "width": 120, "height": 80, "rotation": 0, "number": 3, "seats": 6, "shape": "rectangle" },
+        { "id": "gs-el-4", "type": "table", "x": 250, "y": 200, "width": 60, "height": 60, "rotation": 0, "number": 4, "seats": 2, "shape": "circle" },
+        { "id": "gs-el-5", "type": "table", "x": 350, "y": 50, "width": 80, "height": 80, "rotation": 45, "number": 5, "seats": 4, "shape": "square" },
+        { "id": "gs-el-6", "type": "wall", "x": 10, "y": 10, "width": 480, "height": 5, "rotation": 0 },
+        { "id": "gs-el-7", "type": "bar", "x": 300, "y": 300, "width": 180, "height": 50, "rotation": 0, "label": "Main Bar" },
+        { "id": "gs-el-8", "type": "entry", "x": 10, "y": 300, "width": 80, "height": 20, "rotation": 0, "label": "Entrance" }
+      ],
+      "reviews": [
+        { "userId": "user-1", "rating": 5, "comment": "Absolutely fantastic! The best meal I've had in years.", "date": "2025-06-10T14:48:00.000Z" },
+        { "userId": "user-2", "rating": 4, "comment": "Great atmosphere and delicious food. A bit pricey but worth it.", "date": "2025-06-12T19:20:00.000Z" }
+      ],
+      "menu": [
+        { "id": "gs-starter-1", "name": "Truffle Risotto", "price": 18.00, "category": "Starters", "description": "Creamy Arborio rice with black truffle and parmesan." },
+        { "id": "gs-main-1", "name": "Pan-Seared Salmon", "price": 29.50, "category": "Main Course", "description": "With asparagus, lemon-dill sauce, and roasted potatoes." },
+        { "id": "gs-dessert-1", "name": "Lava Cake", "price": 14.00, "category": "Desserts", "description": "Molten chocolate cake with a scoop of vanilla bean ice cream." },
+        { "id": "gs-drink-1", "name": "Sparkling Water", "price": 5.00, "category": "Drinks", "description": "Imported sparkling mineral water." }
+      ]
+    },
+    {
+      "id": "restaurant-2",
+      "name": "Kyoto Blossom",
+      "username": "kyotoblossom",
+      "password": "password",
+      "cuisine": "Japanese & Sushi",
+      "address": "789 Sakura Lane, Sushiville",
+      "description": "Authentic Japanese cuisine and the freshest sushi, served in a serene, traditional atmosphere.",
+      "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=2670&auto=format&fit=crop",
+      "status": "active",
+      "openingHours": "12:00 - 22:00",
+      "maxBookings": 40,
+      "layout": [
+        { "id": "kb-el-1", "type": "bar", "x": 40, "y": 40, "width": 400, "height": 60, "rotation": 0, "label": "Sushi Bar" },
+        { "id": "kb-el-2", "type": "table", "shape": "square", "seats": 4, "width": 80, "height": 80, "x": 60, "y": 160, "rotation": 0, "number": 1 },
+        { "id": "kb-el-3", "type": "table", "shape": "square", "seats": 4, "width": 80, "height": 80, "x": 60, "y": 280, "rotation": 0, "number": 2 },
+        { "id": "kb-el-4", "type": "table", "shape": "square", "seats": 4, "width": 80, "height": 80, "x": 180, "y": 160, "rotation": 0, "number": 3 },
+        { "id": "kb-el-5", "type": "table", "shape": "square", "seats": 4, "width": 80, "height": 80, "x": 180, "y": 280, "rotation": 0, "number": 4 },
+        { "id": "kb-el-6", "type": "table", "shape": "round", "seats": 2, "width": 60, "height": 60, "x": 320, "y": 180, "rotation": 0, "number": 5 },
+        { "id": "kb-el-7", "type": "table", "shape": "round", "seats": 2, "width": 60, "height": 60, "x": 320, "y": 300, "rotation": 0, "number": 6 },
+        { "id": "kb-el-8", "type": "plant", "width": 40, "height": 40, "x": 480, "y": 40, "rotation": 0 },
+        { "id": "kb-el-9", "type": "plant", "width": 40, "height": 40, "x": 480, "y": 340, "rotation": 0 },
+        { "id": "kb-el-10", "type": "door", "width": 80, "height": 20, "x": 20, "y": 400, "rotation": 0 },
+        { "id": "kb-el-11", "type": "wall", "width": 20, "height": 280, "x": 420, "y": 120, "rotation": 0 }
+      ],
+      "reviews": [
+        { "userId": "user-3", "rating": 5, "comment": "The sushi is out of this world. So fresh!", "date": "2025-06-11T20:00:00.000Z" },
+        { "userId": "user-4", "rating": 4, "comment": "Lovely place for a date night. Will be back!", "date": "2025-08-05T18:30:00.000Z" }
+      ],
+      "menu": [
+        { "id": "kb-sushi-1", "name": "Spicy Tuna Roll", "price": 16.00, "category": "Sushi", "description": "Fresh tuna, cucumber, and spicy mayo." },
+        { "id": "kb-main-1", "name": "Ramen Tonkotsu", "price": 24.00, "category": "Main Course", "description": "Rich pork broth, chashu pork, soft-boiled egg, and noodles." },
+        { "id": "kb-starter-1", "name": "Edamame", "price": 8.00, "category": "Starters", "description": "Steamed soybeans with sea salt." },
+        { "id": "kb-drink-1", "name": "Sake (Hot)", "price": 12.00, "category": "Drinks", "description": "Traditional Japanese rice wine." }
+      ]
+    },
+    {
+      "id": "restaurant-3",
+      "name": "Nonna's Kitchen",
+      "username": "nonnaskitchen",
+      "password": "password",
+      "cuisine": "Classic Italian",
+      "address": "123 Pasta Place, Little Italy",
+      "description": "Heart-warming, traditional Italian recipes passed down through generations. Just like Nonna used to make.",
+      "image": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=2570&auto=format&fit=crop",
+      "status": "active",
+      "openingHours": "12:00 - 21:00",
+      "maxBookings": 30,
+      "layout": [
+        { "id": "nk-el-1", "type": "table", "x": 60, "y": 100, "width": 60, "height": 60, "rotation": 0, "number": 1, "seats": 2, "shape": "circle" },
+        { "id": "nk-el-2", "type": "table", "x": 60, "y": 220, "width": 60, "height": 60, "rotation": 0, "number": 2, "seats": 2, "shape": "circle" },
+        { "id": "nk-el-3", "type": "table", "x": 200, "y": 80, "width": 100, "height": 80, "rotation": 0, "number": 3, "seats": 4, "shape": "rectangle" },
+        { "id": "nk-el-4", "type": "table", "x": 200, "y": 200, "width": 100, "height": 80, "rotation": 0, "number": 4, "seats": 4, "shape": "rectangle" },
+        { "id": "nk-el-5", "type": "bar", "x": 400, "y": 60, "width": 60, "height": 240, "rotation": 0, "label": "WINE" },
+        { "id": "nk-el-6", "type": "plant", "x": 340, "y": 20, "width": 40, "height": 40, "rotation": 0 },
+        { "id": "nk-el-7", "type": "entry", "x": 20, "y": 20, "width": 80, "height": 20, "rotation": 0 }
+      ],
+      "reviews": [
+        { "userId": "user-5", "rating": 5, "comment": "Felt like I was back in Italy. The carbonara is a must-try!", "date": "2025-09-15T19:00:00.000Z" }
+      ],
+      "menu": [
+        { "id": "nk-pasta-1", "name": "Spaghetti Carbonara", "price": 22.50, "category": "Main Course", "description": "With pancetta, egg yolk, pecorino cheese, and black pepper." },
+        { "id": "nk-starter-1", "name": "Caprese Salad", "price": 14.00, "category": "Starters", "description": "Fresh mozzarella, tomatoes, basil, and balsamic glaze." },
+        { "id": "nk-dessert-1", "name": "Panna Cotta", "price": 11.00, "category": "Desserts", "description": "Creamy vanilla pudding with a berry coulis." },
+        { "id": "nk-drink-1", "name": "Chianti Classico", "price": 15.00, "category": "Drinks", "description": "A glass of fine red wine from Tuscany." }
+      ]
+    },
+    {
+      "id": "restaurant-4",
+      "name": "The Sizzling Skillet",
+      "username": "sizzlingskillet",
+      "password": "password",
+      "cuisine": "American Steakhouse",
+      "address": "88 Grill Street, Meatsburg",
+      "description": "The best cuts of prime beef, grilled to perfection. A true paradise for meat lovers.",
+      "image": "https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=2670&auto=format&fit=crop",
+      "status": "suspended",
+      "openingHours": "18:00 - 23:30",
+      "maxBookings": 60,
+      "layout": [
+        { "id": "ss-el-1", "type": "table", "x": 40, "y": 40, "width": 100, "height": 80, "rotation": 0, "number": 1, "seats": 4, "shape": "rectangle" },
+        { "id": "ss-el-2", "type": "table", "x": 40, "y": 160, "width": 100, "height": 80, "rotation": 0, "number": 2, "seats": 4, "shape": "rectangle" },
+        { "id": "ss-el-3", "type": "table", "x": 40, "y": 280, "width": 100, "height": 80, "rotation": 0, "number": 3, "seats": 4, "shape": "rectangle" },
+        { "id": "ss-el-4", "type": "table", "x": 220, "y": 80, "width": 80, "height": 80, "rotation": 0, "number": 4, "seats": 2, "shape": "square" },
+        { "id": "ss-el-5", "type": "table", "x": 220, "y": 240, "width": 80, "height": 80, "rotation": 0, "number": 5, "seats": 2, "shape": "square" },
+        { "id": "ss-el-6", "type": "bar", "x": 400, "y": 40, "width": 200, "height": 60, "rotation": 0, "label": "Whiskey Bar" },
+        { "id": "ss-el-7", "type": "entry", "x": 400, "y": 320, "width": 80, "height": 20, "rotation": 0, "label": "Entry" }
+      ],
+      "reviews": [],
+      "menu": [
+        { "id": "ss-main-1", "name": "Filet Mignon (8oz)", "price": 52.00, "category": "Main Course", "description": "Center-cut tenderloin with a red wine reduction sauce." },
+        { "id": "ss-side-1", "name": "Creamed Spinach", "price": 12.00, "category": "Sides", "description": "A classic steakhouse side." },
+        { "id": "ss-starter-1", "name": "Onion Rings", "price": 10.00, "category": "Starters", "description": "Thick-cut and beer-battered." },
+        { "id": "ss-drink-1", "name": "Old Fashioned", "price": 16.00, "category": "Drinks", "description": "Bourbon cocktail with bitters and a twist of citrus." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "logs": [
+    {
+      "id": "rlog-001",
+      "timestamp": "2025-08-12T15:00:00Z",
+      "action": "layout-update",
+      "details": "Floor plan updated. 2 new tables added."
+    },
+    {
+      "id": "rlog-002",
+      "timestamp": "2025-08-12T11:00:00Z",
+      "action": "new-booking",
+      "details": "New booking received from Alice Johnson for 2 guests."
+    },
+    {
+      "id": "rlog-003",
+      "timestamp": "2025-08-11T09:20:00Z",
+      "action": "profile-update",
+      "details": "Restaurant description was updated."
+    },
+    {
+      "id": "rlog-004",
+      "timestamp": "2025-08-10T18:00:00Z",
+      "action": "status-change",
+      "details": "Table T4 status changed to 'Cleaning'."
+    },
+    {
+      "id": "rlog-005",
+      "timestamp": "2025-08-09T12:00:00Z",
+      "action": "account-creation",
+      "details": "Restaurant account registered."
+    },
+    {
+      "id": "rlog-006",
+      "timestamp": "2025-08-13T10:00:00Z",
+      "action": "new-booking",
+      "details": "New booking received from Bob Williams for 4 guests."
+    }
+  ]
+}

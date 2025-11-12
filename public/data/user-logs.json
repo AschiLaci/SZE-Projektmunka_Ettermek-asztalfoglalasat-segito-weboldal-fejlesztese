@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "fullName": "Alice Johnson",
+    "username": "alicej",
+    "email": "alice.j@example.com",
+    "phone": "+11234567890",
+    "address": "456 Oak Avenue, Springfield"
+  },
+  "logs": [
+    {
+      "id": "log-001",
+      "timestamp": "2025-08-12T10:30:00Z",
+      "action": "booking",
+      "details": "Booked a table at The Gilded Spoon for 2 people."
+    },
+    {
+      "id": "log-002",
+      "timestamp": "2025-08-10T14:00:00Z",
+      "action": "profile-update",
+      "details": "Updated phone number."
+    },
+    {
+      "id": "log-003",
+      "timestamp": "2025-08-05T18:45:00Z",
+      "action": "booking",
+      "details": "Booked a table at Kyoto Blossom for 4 people."
+    },
+    {
+      "id": "log-004",
+      "timestamp": "2025-07-28T09:15:00Z",
+      "action": "profile-update",
+      "details": "Updated address information."
+    },
+    {
+      "id": "log-005",
+      "timestamp": "2025-06-15T11:00:00Z",
+      "action": "account-creation",
+      "details": "Account created successfully."
+    }
+  ]
+}

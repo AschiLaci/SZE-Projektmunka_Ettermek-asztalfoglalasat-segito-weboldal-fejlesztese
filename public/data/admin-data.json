@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "name": "Alice Johnson",
+      "username": "alicej",
+      "email": "alice.j@example.com",
+      "contactNumber": "+1-202-555-0141",
+      "status": "active",
+      "joinDate": "2025-06-15",
+      "role": "user",
+      "password": "password"
+    },
+    {
+      "id": "user-2",
+      "name": "Bob Williams",
+      "username": "bobw",
+      "email": "bob.w@example.com",
+      "contactNumber": "+1-202-555-0178",
+      "status": "active",
+      "joinDate": "2025-07-20",
+      "role": "user",
+      "password": "password"
+    },
+    {
+      "id": "user-3",
+      "name": "Charlie Brown",
+      "username": "charlieb",
+      "email": "charlie.b@example.com",
+      "contactNumber": "+1-202-555-0199",
+      "status": "suspended",
+      "joinDate": "2025-05-10",
+      "role": "user",
+      "password": "password"
+    },
+    {
+      "id": "user-4",
+      "name": "Diana Miller",
+      "username": "dianam",
+      "email": "diana.m@example.com",
+      "contactNumber": "+1-202-555-0123",
+      "status": "active",
+      "joinDate": "2025-08-01",
+      "role": "user",
+      "password": "password"
+    },
+    {
+      "id": "user-5",
+      "name": "Ethan Davis",
+      "username": "ethand",
+      "email": "ethan.d@example.com",
+      "contactNumber": "+1-202-555-0156",
+      "status": "active",
+      "joinDate": "2025-09-05",
+      "role": "user",
+      "password": "password"
+    },
+    {
+      "id": "admin-1",
+      "name": "Admin User",
+      "username": "admin",
+      "email": "admin@example.com",
+      "contactNumber": "+1-202-555-0100",
+      "status": "active",
+      "joinDate": "2025-01-01",
+      "role": "admin",
+      "password": "password"
+    },
+    {
+      "id": "admin-2",
+      "name": "Super Admin",
+      "username": "SuperAdmin",
+      "email": "superadmin@example.com",
+      "contactNumber": "+1-202-555-0101",
+      "status": "active",
+      "joinDate": "2025-01-01",
+      "role": "admin",
+      "password": "password"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "bookings": [
+    {
+      "id": "booking-1",
+      "restaurantId": 1,
+      "name": "Alice Johnson",
+      "contact": "alice.j@example.com",
+      "date": "2025-10-26",
+      "time": "19:00",
+      "guests": 2,
+      "specialRequests": "Window seat if possible.",
+      "status": "confirmed",
+      "tableNumber": 3,
+      "order": [
+        { "id": "gs-starter-1", "name": "Truffle Risotto", "price": 18.00, "quantity": 1 },
+        { "id": "gs-main-1", "name": "Pan-Seared Salmon", "price": 29.50, "quantity": 2 },
+        { "id": "gs-drink-1", "name": "Sparkling Water", "price": 5.00, "quantity": 2 }
+      ]
+    },
+    {
+      "id": "booking-2",
+      "restaurantId": 1,
+      "name": "Bob Williams",
+      "contact": "bob.w@example.com",
+      "date": "2025-10-26",
+      "time": "20:30",
+      "guests": 4,
+      "specialRequests": "Celebrating an anniversary.",
+      "status": "pending",
+      "tableNumber": null,
+      "order": []
+    },
+    {
+      "id": "booking-3",
+      "restaurantId": 2,
+      "name": "Charlie Brown",
+      "contact": "charlie.b@example.com",
+      "date": "2025-10-27",
+      "time": "18:00",
+      "guests": 3,
+      "specialRequests": "",
+      "status": "confirmed",
+      "tableNumber": 12,
+      "order": [
+        { "id": "kb-starter-1", "name": "Edamame", "price": 8.00, "quantity": 2 },
+        { "id": "kb-sushi-1", "name": "Spicy Tuna Roll", "price": 16.00, "quantity": 3 },
+        { "id": "kb-main-1", "name": "Ramen Tonkotsu", "price": 24.00, "quantity": 1 }
+      ]
+    },
+    {
+      "id": "booking-4",
+      "restaurantId": 1,
+      "name": "Diana Prince",
+      "contact": "diana.p@example.com",
+      "date": "2025-10-28",
+      "time": "19:30",
+      "guests": 2,
+      "specialRequests": "Quiet table.",
+      "status": "completed",
+      "tableNumber": 5,
+      "order": []
+    },
+    {
+      "id": "booking-5",
+      "restaurantId": 3,
+      "name": "Ethan Hunt",
+      "contact": "ethan.h@example.com",
+      "date": "2025-10-26",
+      "time": "21:00",
+      "guests": 5,
+      "specialRequests": "Need a high chair.",
+      "status": "pending",
+      "tableNumber": null,
+      "order": []
+    }
+  ]
+}

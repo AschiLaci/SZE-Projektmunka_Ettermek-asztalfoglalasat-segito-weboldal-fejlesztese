@@ -1,0 +1,12 @@
+{
+  "layout": [
+    { "id": "el-1", "type": "table", "x": 50, "y": 50, "width": 80, "height": 80, "rotation": 0, "number": 1, "seats": 4, "shape": "square" },
+    { "id": "el-2", "type": "table", "x": 200, "y": 50, "width": 80, "height": 80, "rotation": 0, "number": 2, "seats": 4, "shape": "square" },
+    { "id": "el-3", "type": "table", "x": 50, "y": 200, "width": 120, "height": 80, "rotation": 0, "number": 3, "seats": 6, "shape": "rectangle" },
+    { "id": "el-4", "type": "table", "x": 250, "y": 200, "width": 60, "height": 60, "rotation": 0, "number": 4, "seats": 2, "shape": "circle" },
+    { "id": "el-5", "type": "table", "x": 350, "y": 50, "width": 80, "height": 80, "rotation": 45, "number": 5, "seats": 4, "shape": "square" },
+    { "id": "el-6", "type": "wall", "x": 10, "y": 10, "width": 480, "height": 5, "rotation": 0 },
+    { "id": "el-7", "type": "bar", "x": 300, "y": 300, "width": 180, "height": 50, "rotation": 0, "label": "Main Bar" },
+    { "id": "el-8", "type": "entry", "x": 10, "y": 300, "width": 80, "height": 20, "rotation": 0, "label": "Entrance" }
+  ]
+}
