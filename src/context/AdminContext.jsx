@@ -219,7 +219,7 @@ export const AdminProvider = ({ children }) => {
       menu: [],
       layout: [],
       status: 'pending',
-      image: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=2670&auto=format&fit=crop'
+      image: '/images/restaurantplus.jpeg'
     };
     
     updateAndPersist('restaurants', [...currentRestaurants, newRestaurant]);
