@@ -16,6 +16,7 @@ npm run dev
 
 Ezután az alkalmazás elérhető lesz a böngészőben:
 [http://localhost:3000](http://localhost:3000)
+> Ha a 3000-es port foglalt akkor a 3001-es porton és így tovább.
 
 
 
